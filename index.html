@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://kit.fontawesome.com/640ac02c21.js"></script>
+    <title>HTML Layouts 2</title>
+  </head>
+
+  <body>
+    <header>
+      <nav id="header-nav">
+        <div id="header-left">
+         <div><img id="logo" src="./icons8-github-30.png" alt="logo" /></div>
+         <input type="search" id="site-search" placeholder="Search or jump to...">
+          <ul class="header-list">
+            <li>Pull Requests</li>
+            <li>Issues</li>
+            <li>Marketplace</li>
+            <li>Explore</li>
+        </div>
+        <div id="header-right">
+          <div class="icons" id="bell-icon"><i class="far fa-bell"></i></div>
+          <div class="icons" id="plus-icon">+</div>
+          <div class="icons" id="mini-profile-pic"><img src="./ricflair.jpg" alt="profile pic" /></div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="column-section">
+        <img id="profile-pic" src="./ricflair.jpeg" alt="profile pic" />
+        <div id="name">
+         <h1>Alex Maldonado</h1>
+         <h3>maldoalex</h3>
+        </div>
+        <div id="edit-profile">
+         <input type="search" id="edit-button" placeholder="Edit profile">
+        </div>
+        <div id="description">
+         <p>I have been learning web development for about 6 months and am studying at DevMountain coding bootcamp since June 17.</p>
+         
+        <p>Dallas, TX</p>
+        </div>
+       </section>
+
+    <section id="main-section">
+
+     <header id="main-header">
+      <nav id="main-nav">
+       <ul id="main-header-list">
+        <div class="header-tabs">
+         <li>Overview</li>
+        </div>
+        <div class="header-tabs">
+         <li>Repositories</li>
+         <div class="numbers">14</div>
+        </div>
+        <div class="header-tabs">
+         <li>Projects</li>
+         <div class="numbers">0</div>
+        </div>
+        <div class="header-tabs">
+         <li>Stars</li>
+         <div class="numbers">0</div>
+        </div>
+        <div class="header-tabs">
+         <li>Followers</li>
+         <div class="numbers">0</div>
+        </div>
+        <div class="header-tabs">
+         <li>Following</li>
+         <div class="numbers">0</div>
+        </div>
+       </ul>
+      </nav>
+     </header>
+      <div id="subtitle">
+       <p id="popular">Popular repositories</p>
+       <p>Customize your pins</p>
+      </div>
+        
+      
+      <div id="repo-boxes">
+       <div class="rowA">
+        <div class="row1">hello-world2 <br><br> GitHubGuide </div>
+        <div class="row1">git-lecture-1</div>
+       </div>
+
+       <div class="rowA">
+        <div class="row1">
+         learn-git  <br><br> Forked from DevMountain/learn-git  <div class="repo-div2">Just a basic repository for learning git</div>   
+        </div>
+        <div class="row1">Day-1-Afternoon <div class="repo-div2">Day 1 Afternoon GitHub/Command Line</div> </div>
+       </div>
+
+        <div class="rowA">
+         <div class="row1">javascript-1-afternoon <div class="repo-div">An afternoon project to help students solidify the fundamentals</div> 
+         </div>
+        
+         <div class="row1">javascript-2-afternoon <div class="repo-div">An afternoon project to help students solidify objects</div></div>
+        </div>
+      
+       </div>
+
+      </section>
+    </main>
+  </body>
+</html>
